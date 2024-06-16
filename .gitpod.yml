@@ -6,6 +6,6 @@
 
 tasks:
   - init: make && npm install
-    command: npm run start
+    command: sudo npm run start
 
 
