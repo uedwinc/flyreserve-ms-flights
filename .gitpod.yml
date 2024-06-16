@@ -5,7 +5,7 @@
 # Learn more from ready-to-use templates: https://www.gitpod.io/docs/introduction/getting-started/quickstart
 
 tasks:
-  - init: make && npm install
-    command: sudo npm run start
+  - init: make start
+    command: make start
 
 
