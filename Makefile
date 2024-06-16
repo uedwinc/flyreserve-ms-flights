@@ -1,6 +1,6 @@
 default: start
 
-project:=msupandrunning
+project:=flyreserve
 service:=ms-flights
 NODE_ENV?=dev
 COMMIT_HASH = $(shell git rev-parse --verify HEAD)
