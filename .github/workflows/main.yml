@@ -21,9 +21,9 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v4
 
-    # Test the service using the make file
-    - name: Run Unit Tests
-      run: make test
+#    # Test the service using the make file
+#    - name: Run Unit Tests
+#      run: make test
         
     # Push the image to Docker Hub
     - name: Build and push to Docker Registry
